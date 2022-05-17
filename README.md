@@ -92,12 +92,6 @@ Current Status as of 2022/05/17
     
     Comment: Difference is 3.4E-7° (for a tolerance of 6E-8°). The projection is Cassini-Soldner, which use series expansions. Maybe we should check what is the expected precision for the number of terms provided in the expansion.
     
-  - 5110 LAEA test case failure:
-  
-    Comment: The "Lambert Azimuthal Equal Area" projection is not yet implemented in SIS. This issue is tracked here:
-      https://issues.apache.org/jira/browse/SIS-228
-      
-      https://issues.apache.org/jira/browse/SIS-229
       
 
 
