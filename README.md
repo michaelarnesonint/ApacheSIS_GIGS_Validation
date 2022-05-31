@@ -1,6 +1,6 @@
 # ApacheSIS_GIGS_Validation
 
-Current Status as of 2022/05/24
+Current Status as of 2022/05/31
 
 0000 - Coordinate reference Systems - 100% 
 
@@ -8,7 +8,7 @@ Current Status as of 2022/05/24
 
 2100 - Predefined Geodetic Parameter Library - 100%
 
-2200 - Predefined Geodetic Data Objects - almost done, just have to due full completeness test of 2210 vertical CRS
+2200 - Predefined Geodetic Data Objects - 100%
 - some test case failures (mostly due to different aliases and some 2208 test case failures) 
 - Need some clarification about how to fill out N/A sections on gigs.iogp.org website
 
