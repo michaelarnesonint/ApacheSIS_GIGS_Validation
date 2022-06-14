@@ -45,6 +45,12 @@ Current Status as of 2022/06/14
     Expected point: [-2.0, -71.0, 0.0]
     
     Converted point : [-2.0000000017631927, 288.9999999937728, 0.0]
+    
+    Comment: This is a 360° wraparound on the longitude value. The 2 points are equivalent. I do not know if the tests should accept or not longitude differences that are multiple of 360°. My policy in existing GIGS tests has been to accept them, so the choice of subtracting 360° or not is left to implementations. While I understand that users would expect -71° when transforming a single point, in the context where we transform many points (e.g. when transforming a geometry or resampling a raster), subtracting 360° suddenly in the middle of a geometry causes a lot of problems. So this is not something that we want to do in all cases, and we may need some mechanism for giving the choice to users. In the meantime, it is possible to make the tests tolerance to 360° shift by involing the following method on every longitude values:
+    
+     import org.apache.sis.measure.Longitude;
+     
+     λ = Longitude.normalize(λ);
 
   - 5111 MercA_part2 test case failure:
   
