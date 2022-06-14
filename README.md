@@ -1,6 +1,6 @@
 # ApacheSIS_GIGS_Validation
 
-Current Status as of 2022/06/07
+Current Status as of 2022/06/14
 
 0000 - Coordinate reference Systems - 100% 
 
@@ -14,7 +14,7 @@ Current Status as of 2022/06/07
 
 3100 - User-Defined Geodetic Parameter Library - 100%
 
-3200 - User-Defined Geodetic Data Objects - Tests 3202-3204 are done, 3205 and 3206 are currently in progress. Tests 3201, 3207-3212 still need to be implemented.
+3200 - User-Defined Geodetic Data Objects - Tests 3202-3204, 3206, 3207 are done, 3205, 3208 are currently in progress. Tests 3201, 3209-3212 still need to be implemented.
 
 5100 - Data Operations (Conversions) 
 - in progress, need clarification on gigs criteria
