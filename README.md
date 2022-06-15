@@ -1,6 +1,6 @@
 # ApacheSIS_GIGS_Validation
 
-Current Status as of 2022/06/14
+Current Status as of 2022/06/15
 
 0000 - Coordinate reference Systems - 100% 
 
@@ -37,6 +37,7 @@ Current Status as of 2022/06/14
   - 2207 crs not supported for EPSG 22700, 27200, 29701
 
 3200 Test Notes
+
   - The GeoAPI 3.0 API does not support creation of "User Early-Bound" Datums. This is preventing the validation of the following tests:
   
     - 3205: GIGS_64023 ,GIGS_64277, GIGS_64025, GIGS_64027, GIGS_64313, GIGS_64029, GIGS_64030, GIGS_64031, GIGS_64014, GIGS_64032
