@@ -29,11 +29,20 @@ Current Status as of 2022/06/14
 
 
 2200 Test Failures
+
   - 2207 Alias not found for EPSG 2043, 2041, 29871
+  - 
   - 2207 name mismatch for EPSG 22091, 22092, 22032, 22033, 27700
+  - 
   - 2207 crs not supported for EPSG 22700, 27200, 29701
 
+3200 Test Notes
+  - The GeoAPI 3.0 API does not support creation of "User Early-Bound" Datums. This is preventing the validation of the following tests:
+  
+    - 3205: GIGS_64023 ,GIGS_64277, GIGS_64025, GIGS_64027, GIGS_64313, GIGS_64029, GIGS_64030, GIGS_64031, GIGS_64014, GIGS_64032
 
+    - 3207: GIGS_62031, GIGS_62037
+    
 5100 Test Failures 
 
   - 5111 GIGS_conv_5111_MercA_part1
