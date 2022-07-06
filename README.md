@@ -14,7 +14,7 @@ Current Status as of 2022/07/06
 
 3100 - User-Defined Geodetic Parameter Library - 100%
 
-3200 - User-Defined Geodetic Data Objects - All tests exception 3205 have been implemented. Some tests can't be implemented because GeoAPI doesn't support creation of custom early bound datum
+3200 - User-Defined Geodetic Data Objects - All tests exception 3205 have been implemented. Some tests can't be implemented because GeoAPI doesn't support creation of custom early bound datum.
 
 5100 - Data Operations (Conversions) 
 - in progress, need clarification on gigs criteria
@@ -42,7 +42,11 @@ Current Status as of 2022/07/06
   
     - 3205: GIGS_64023 ,GIGS_64277, GIGS_64025, GIGS_64027, GIGS_64313, GIGS_64029, GIGS_64030, GIGS_64031, GIGS_64014, GIGS_64032
 
-    - 3207: GIGS_62031, GIGS_62037
+    - 3207: GIGS_62031, GIGS_62037, GIGS_62029
+    
+    - 3208: GIGS_61759, GIGS_61123
+
+    - 3212: GIGS_68178
     
 5100 Test Failures 
 
