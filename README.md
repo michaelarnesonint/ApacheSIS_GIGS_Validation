@@ -1,6 +1,6 @@
 # ApacheSIS_GIGS_Validation
 
-Current Status as of 2022/07/06
+Current Status as of 2022/07/26
 
 0000 - Coordinate reference Systems - 100% 
 
@@ -74,7 +74,7 @@ Current Status as of 2022/07/06
     
     Expected point: [-2.0, -177.8077194, 0.0]
     
-    Converted point : [-2.0000000017631927, 182.1922805493284, 0.0]
+    Converted point : [-2.0000000017631927, 182.1922805493284, 0.0
 
   - 5101 TM_part1_USGS test case failure:
   
