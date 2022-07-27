@@ -20,7 +20,7 @@ Current Status as of 2022/07/27
 - in progress, need clarification on gigs criteria
 - some test failures (see 5100 Test Failures)
 
-5200 - Data Operations (Coordinate Transformations) - in progress, majority of test cases fail
+5200 - Data Operations (Coordinate Transformations) - All but one of the test files fails
 
 6000 - Audit Trail - 100%
 
