@@ -80,6 +80,8 @@ Current Status as of 2022/07/27
   
     GIGS-5108-12
     
+    Start point: [5.0, 109.0, 0.0]
+    
     Expected point: [603116.703, 329668.599, 0.0]
     
     Converted point : [603116.6735686994, 329668.59945207497, 0.0]
