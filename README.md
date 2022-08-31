@@ -1,6 +1,6 @@
 # ApacheSIS_GIGS_Validation
 
-Current Status as of 2022/07/27
+Current Status as of 2022/08/31
 
 0000 - Coordinate reference Systems - 100% 
 
@@ -14,7 +14,8 @@ Current Status as of 2022/07/27
 
 3100 - User-Defined Geodetic Parameter Library - 100%
 
-3200 - User-Defined Geodetic Data Objects - All tests exception 3205 have been implemented. Some tests can't be implemented because GeoAPI doesn't support creation of custom early bound datum.
+3200 - User-Defined Geodetic Data Objects - 100%
+ - some test case failures (difference in alias values and names, custom transformations dont properly set parameters)
 
 5100 - Data Operations (Conversions) 
 - in progress, need clarification on gigs criteria
