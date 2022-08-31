@@ -25,7 +25,7 @@ Current Status as of 2022/08/31
 
 6000 - Audit Trail - 100%
 
-7000 - Deprecation - in progress
+7000 - Deprecation - 100%
 
 
 
