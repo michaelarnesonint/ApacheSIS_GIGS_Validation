@@ -51,7 +51,7 @@ Current Status as of 2022/08/31
     
 5100 Test Failures (Ignoring conversion issues with USGS Test cases)
 
-  - 5111 GIGS_conv_5111_MercA_part1
+  - 5111 GIGS_conv_5111_MercA_part1 (this is fixed in latest Apache SIS 1.3-SNAPSHOT
   
     GIGS-5111-19
     
@@ -67,7 +67,7 @@ Current Status as of 2022/08/31
      
      λ = Longitude.normalize(λ);
 
-  - 5111 MercA_part2 test case failure:
+  - 5111 MercA_part2 test case failure (this is fixed in latest Apache SIS 1.3-SNAPSHOT):
   
     GIGS-5111-54
     
